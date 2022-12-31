@@ -15,7 +15,6 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 <aside id="secondary" class="widget-area col-sm-12 col-lg-4" role="complementary">
 <div class="price-style" style="margin-inline: -6rem;
     padding-left: 6rem;
-	margin-top:4rem;
     ">
 <?php echo get_field("price");?>
 
