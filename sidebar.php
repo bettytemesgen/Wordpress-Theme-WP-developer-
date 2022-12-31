@@ -15,6 +15,7 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 <aside id="secondary" class="widget-area col-sm-12 col-lg-4" role="complementary">
 <div class="price-style" style="margin-inline: -6rem;
     padding-left: 6rem;
+	margin-top:4rem;
     ">
 <?php echo get_field("price");?>
 
@@ -22,7 +23,7 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 
 	<div class="fact-style" style="background-color:#696767 ;  
 	     width: 14rem;
-    margin-top: 1rem;
+    margin-top: 3rem;
 	margin-inline: -1rem;
 ">
 	<?php echo get_field("facts"); ?>
